@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Bosconian" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Bosconian" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Bosconian" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="cb.bmp" />
+		<Unit filename="include/Asteroide.h" />
+		<Unit filename="include/Bala.h" />
+		<Unit filename="include/BalaCanyon.h" />
+		<Unit filename="include/Bosconian.h" />
+		<Unit filename="include/Canyon.h" />
+		<Unit filename="include/Configuracion.h" />
+		<Unit filename="include/Enemigo.h" />
+		<Unit filename="include/EnemigoAzul.h" />
+		<Unit filename="include/EnemigoEspia.h" />
+		<Unit filename="include/EnemigoRosa.h" />
+		<Unit filename="include/Estacion.h" />
+		<Unit filename="include/Estrella.h" />
+		<Unit filename="include/Explosion.h" />
+		<Unit filename="include/Hud.h" />
+		<Unit filename="include/Juego.h" />
+		<Unit filename="include/Mina.h" />
+		<Unit filename="include/Nave.h" />
+		<Unit filename="include/Nivel.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Asteroide.cpp" />
+		<Unit filename="src/Bala.cpp" />
+		<Unit filename="src/BalaCanyon.cpp" />
+		<Unit filename="src/Bosconian.cpp" />
+		<Unit filename="src/Canyon.cpp" />
+		<Unit filename="src/Configuracion.cpp" />
+		<Unit filename="src/Enemigo.cpp" />
+		<Unit filename="src/EnemigoAzul.cpp" />
+		<Unit filename="src/EnemigoEspia.cpp" />
+		<Unit filename="src/EnemigoRosa.cpp" />
+		<Unit filename="src/Estacion.cpp" />
+		<Unit filename="src/Estrella.cpp" />
+		<Unit filename="src/Explosion.cpp" />
+		<Unit filename="src/Hud.cpp" />
+		<Unit filename="src/Juego.cpp" />
+		<Unit filename="src/Mina.cpp" />
+		<Unit filename="src/Nave.cpp" />
+		<Unit filename="src/Nivel.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

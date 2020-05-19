@@ -1,0 +1,263 @@
+# depslib dependency file v1.0
+1556466760 source:/home/lucia/Escritorio/Bosconian/main.cpp
+	<SFML/Graphics.hpp>
+	<SFML/System.hpp>
+	<Bosconian.h>
+
+1557173918 source:/home/lucia/Escritorio/Bosconian/src/Bosconian.cpp
+	"Bosconian.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+	<Configuracion.h>
+	<Juego.h>
+
+1557173729 /home/lucia/Escritorio/Bosconian/include/Bosconian.h
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1557173712 /home/lucia/Escritorio/Bosconian/include/Configuracion.h
+	<iostream>
+	<sstream>
+
+1557173986 source:/home/lucia/Escritorio/Bosconian/src/Configuracion.cpp
+	"Configuracion.h"
+
+1557173676 /home/lucia/Escritorio/Bosconian/include/Juego.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<Configuracion.h>
+	<Nave.h>
+	<Nivel.h>
+	<Hud.h>
+
+1557176846 source:/home/lucia/Escritorio/Bosconian/src/Juego.cpp
+	"Juego.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+	<Configuracion.h>
+	<Bosconian.h>
+	<Estrella.h>
+
+1557173661 /home/lucia/Escritorio/Bosconian/include/Nave.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<Bala.h>
+	<Explosion.h>
+
+1557175904 source:/home/lucia/Escritorio/Bosconian/src/Nave.cpp
+	"Nave.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+	<Configuracion.h>
+	<Bosconian.h>
+	<Bala.h>
+
+1557173823 source:/home/lucia/Escritorio/Bosconian/src/Bala.cpp
+	"Bala.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+	<Configuracion.h>
+	<Bosconian.h>
+
+1557081227 /home/lucia/Escritorio/Bosconian/include/Bala.h
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1557176493 source:/home/lucia/Escritorio/Bosconian/src/Nivel.cpp
+	"Nivel.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+	<stdlib.h>
+	<typeinfo>
+	<Bosconian.h>
+	<Configuracion.h>
+	<EnemigoAzul.h>
+	<EnemigoRosa.h>
+	<EnemigoEspia.h>
+
+1557176546 /home/lucia/Escritorio/Bosconian/include/Nivel.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<Mina.h>
+	<Asteroide.h>
+	<Enemigo.h>
+	<EnemigoEspia.h>
+	<Estacion.h>
+	<Nave.h>
+
+1557174217 source:/home/lucia/Escritorio/Bosconian/src/Estrella.cpp
+	"Estrella.h"
+	<Bosconian.h>
+	<Configuracion.h>
+
+1556543138 /home/lucia/Escritorio/Bosconian/include/Estrella.h
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1557176708 /home/lucia/Escritorio/Bosconian/include/Hud.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<Nave.h>
+	<Nivel.h>
+
+1557174282 source:/home/lucia/Escritorio/Bosconian/src/Hud.cpp
+	"Hud.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+	<Configuracion.h>
+	<Bosconian.h>
+
+1557081600 /home/lucia/Escritorio/Bosconian/include/Mina.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<Explosion.h>
+	<Nave.h>
+
+1557174374 source:/home/lucia/Escritorio/Bosconian/src/Mina.cpp
+	"Mina.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+	<Configuracion.h>
+	<Bosconian.h>
+	<Nave.h>
+
+1557174241 source:/home/lucia/Escritorio/Bosconian/src/Explosion.cpp
+	"Explosion.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+	<Configuracion.h>
+	<Bosconian.h>
+
+1556832563 /home/lucia/Escritorio/Bosconian/include/Explosion.h
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1557174025 source:/home/lucia/Escritorio/Bosconian/src/Enemigo.cpp
+	"Enemigo.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+	<Configuracion.h>
+	<Bosconian.h>
+	<Nave.h>
+	<Bala.h>
+
+1557172485 /home/lucia/Escritorio/Bosconian/include/Enemigo.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<Explosion.h>
+	<Mina.h>
+	<Asteroide.h>
+	<Nave.h>
+	<Bala.h>
+
+1557081609 /home/lucia/Escritorio/Bosconian/include/Asteroide.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<Explosion.h>
+	<Nave.h>
+
+1557173832 source:/home/lucia/Escritorio/Bosconian/src/Asteroide.cpp
+	"Asteroide.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+	<Configuracion.h>
+	<Bosconian.h>
+	<Nave.h>
+
+1556997103 /home/lucia/Escritorio/Bosconian/include/EnemigoAzul.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<Enemigo.h>
+	<Explosion.h>
+	<Mina.h>
+	<Asteroide.h>
+	<Nave.h>
+
+1557174034 source:/home/lucia/Escritorio/Bosconian/src/EnemigoAzul.cpp
+	"EnemigoAzul.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+	<Configuracion.h>
+	<Bosconian.h>
+	<Nave.h>
+
+1557004319 source:/home/lucia/Escritorio/Bosconian/src/EnemigoRosa.cpp
+	"EnemigoRosa.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+	<Configuracion.h>
+	<Bosconian.h>
+	<Nave.h>
+
+1557004238 /home/lucia/Escritorio/Bosconian/include/EnemigoRosa.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<Enemigo.h>
+	<Explosion.h>
+	<Mina.h>
+	<Asteroide.h>
+	<Nave.h>
+
+1557004899 source:/home/lucia/Escritorio/Bosconian/src/EnemigoEspia.cpp
+	"EnemigoEspia.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+	<Configuracion.h>
+	<Bosconian.h>
+	<Nave.h>
+
+1557172451 /home/lucia/Escritorio/Bosconian/include/EnemigoEspia.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<Enemigo.h>
+	<Explosion.h>
+	<Mina.h>
+	<Asteroide.h>
+	<Nave.h>
+
+1557098021 /home/lucia/Escritorio/Bosconian/include/Estacion.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<Explosion.h>
+	<Bala.h>
+	<Nave.h>
+	<Canyon.h>
+
+1557174107 source:/home/lucia/Escritorio/Bosconian/src/Estacion.cpp
+	"Estacion.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+	<Configuracion.h>
+	<Bosconian.h>
+	<Explosion.h>
+	<Nave.h>
+
+1557150522 /home/lucia/Escritorio/Bosconian/include/Canyon.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<Explosion.h>
+	<Bala.h>
+	<BalaCanyon.h>
+	<Nave.h>
+
+1557173978 source:/home/lucia/Escritorio/Bosconian/src/Canyon.cpp
+	"Canyon.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+	<Configuracion.h>
+	<Bosconian.h>
+	<Explosion.h>
+	<BalaCanyon.h>
+	<Nave.h>
+
+1557157642 /home/lucia/Escritorio/Bosconian/include/BalaCanyon.h
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1557173871 source:/home/lucia/Escritorio/Bosconian/src/BalaCanyon.cpp
+	"BalaCanyon.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+	<Configuracion.h>
+	<Bosconian.h>
+
